@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://127.0.0.1:27017/Universe")
+mongoose.connect("mongodb+srv://Admin:Admi1234@cluster0.ivmippx.mongodb.net/Universe")
 const postSchema = new mongoose.Schema({
   imageText: {
     type: String,
